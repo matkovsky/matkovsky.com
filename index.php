@@ -1,26 +1,13 @@
 <?php
-
 	date_default_timezone_set("UTC");
 	$age_of_mine = (date("Y", (time() - mktime(00, 00, 00, 05, 05, 1988)))) - 1970;
-
-?><!doctype html>
+?>
+<!doctype html>
 <html lang="en">
 <head>
 
-	<meta charset="UTF-8">
-	<link rel="shortcut icon" href="/favicon.ico">
-	<link rel="apple-touch-icon-precomposed" href="/img/portrait.png">
-
-	<link rel="stylesheet" href="/css/reset.css" media="screen">
-	<link rel="stylesheet" href="/css/main.css" media="screen">
-	<!--[if lte IE 8]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-	<meta name="description" content="About the awesome and humble Peter Matkovsky from Budapest, Hungary.">
-	<meta name="author" content="Peter Matkovsky | matkovsky.com">
+	<?php include_once(__DIR__ . '/snippets/head.php') ?>
 	<title>Peter Matkovsky</title>
-	<!-- <script src="/mint/?js"></script> -->
 
 </head>
 <body>
@@ -66,16 +53,7 @@
 
 	</div>
 
-	<!-- <small id="credits">Photo of Peter by <a href="https://csibar.com">csibar</a>. Background image by <a href="https://fiftyfootshadows.net/2012/03/19/retina-ipad/">fiftyfootshadows</a>.</small> -->
-
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-8004992-18', 'auto');
-		ga('send', 'pageview');
-	</script>
+	<?php include_once(__DIR__ . '/snippets/foot.php') ?>
 
 </body>
 </html>
