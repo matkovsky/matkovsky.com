@@ -44,7 +44,7 @@
 				</p>
 			</section>
 			<section>
-				<h2>CIB Magyarország</h2>
+				<h2>CIB Bank Magyarország</h2>
 				<p>
 					HUF<br>
 					10701269-65094879-51100005<br>
