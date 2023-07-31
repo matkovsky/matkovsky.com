@@ -5,6 +5,7 @@
 	<?php include_once(__DIR__ . '/../snippets/head.php') ?>
 	<link rel="stylesheet" href="/css/pay.css?v=2023_07_31" media="screen">
 	<title>Pay Peter</title>
+	<meta name="description" content="All the different ways to send money to Peter Matkovsky. Use the Revolut or PayPal links, or send a wire transfer in EUR or HUF to his Slovak or Hungarian bank account. The possibilities are (almost) endless.">
 
 </head>
 <body>

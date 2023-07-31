@@ -8,6 +8,7 @@
 
 	<?php include_once(__DIR__ . '/snippets/head.php') ?>
 	<title>Peter Matkovsky</title>
+	<meta name="description" content="All the important info and contact details about Peter Matkovsky from Budapest, Hungary.">
 
 </head>
 <body>
