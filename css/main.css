@@ -90,13 +90,20 @@ header {
 		        border-radius: 5em;
 	}
 
-	header h1 {
+	h1, h2 {
 		font: 3.8em/1em 'Titillium Web', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 		font-weight: 200;
 		text-transform: uppercase;
 		letter-spacing: -.025em;
 		margin: -.15em 0 0 -.1em;
 		color: #fff;
+	}
+
+	h2 {
+		font-size: 2em;
+		font-weight: 400;
+		text-transform: none;
+		margin: 0 0 .25em;
 	}
 
 /*	Content: General
@@ -289,9 +296,14 @@ article section {
 				box-shadow: 0 1px 2px rgba(0,0,0,.25);
 			}
 
-			header h1 {
+			h1, h2 {
 				font-size: 2.5em;
 				text-shadow: 0 1px 2px rgba(0,0,0,.75);
+			}
+
+			h2 {
+				font-size: 1.75em;
+				font-weight: 600;
 			}
 
 		article {
