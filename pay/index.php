@@ -38,8 +38,8 @@
 				<h2>Tatra banka Slovensko</h2>
 				<p>
 					EUR<br>
-					2928886565/1100<br>
-					IBAN: SK18 1100 0000 0029 2888 6565<br>
+					2616985871/1100<br>
+					IBAN: SK13 1100 0000 0026 1698 5871<br>
 					BIC/SWIFT: TATRSKBX
 				</p>
 			</section>
